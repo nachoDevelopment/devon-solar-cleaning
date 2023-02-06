@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Page.astro";
+import Container from "../components/Container.astro";
+import SignupForm from "../components/SignupForm.astro";
+
+const seo = {
+  title: "Cannonball by Little Sticks | A splash page template",
+  description:
+    "This is a simple splash page template built with Astro by Little Sticks",
+};
+---
+
+<style>
+  .hero__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero__article p {
+    padding: 1rem 0;
+  }
+</style>
+
+<Layout seo={seo}>
+  <Container narrow>
+    <article class="hero__article">
+      <h1 class="fade-in">Devon Solar Cleaning</h1>
+      <p class="fade-in">
+        Website currently being updated. For more information, please contact us
+        on -
+      </p>
+      <div>
+        Email: <a href="mailto:info@devonsolarcleaning.com"
+          >info@devonsolarcleaning.com</a
+        >
+      </div>
+      <div>Phone: <a href="tel:01752938098">01752938098</a></div>
+    </article>
+  </Container>
+</Layout>
