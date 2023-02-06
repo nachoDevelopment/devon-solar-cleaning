@@ -1,6 +1,7 @@
 export const settings = {
-  site: 'https://cannonball.littlesticks.dev',
-  name: 'Little Sticks',
-  title: 'Cannonball by Little Sticks | A splash page template',
-  description: 'This is a simple splash page template built with Astro by Little Sticks',
-}
+  site: "https://devonsolarcleaning.com",
+  name: "Devon Solar Cleaning",
+  title: "Devon Solar Cleaning | Expert Maintenance for Your Solar Panels",
+  description:
+    "Efficient and reliable solar panel cleaning with Devon Solar Cleaning. We utilize the latest technology and techniques to ensure your panels are functioning at their highest capacity.",
+};
